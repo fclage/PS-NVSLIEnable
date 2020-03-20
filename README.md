@@ -6,6 +6,11 @@ Powershell script to automatically patch NVIDIA drivers to enable SLI on non-SLI
 
 ![Snapshot](https://i.ibb.co/523gV0g/PS-Nvidia-SLI-Enable-Script.png)
 
+## Requirements
+Requires external tools in the "Tools" subfolder
+- checksumfix in "tools\ChecksumFix.exe"
+- signtool in "tools\signtool.exe" (see https://docs.microsoft.com/en-us/dotnet/framework/tools/signtool-exe )
+
 
 ### SYNOPSIS
 - Patches the Nvidia driver to enable SLI on all cards
@@ -19,10 +24,6 @@ Powershell script to automatically patch NVIDIA drivers to enable SLI on non-SLI
 - Originalfile            # original compressed driver file name, ex. "nvlddmkm.sy_"
 - DontSearchSystem        # switch that will not search the system for the driver so you dont have to copy the source file
 - EnableTestSigning       # Enables Windows driver test signing on boot
-
-## Requires external tools in the "Tools" subfolder
-- checksumfix "tools\ChecksumFix.exe"
-- signtool "tools\signtool.exe"
 
 ### OUTPUTS
   Console log
