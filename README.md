@@ -20,6 +20,10 @@ Powershell script to automatically patch NVIDIA drivers to enable SLI on non-SLI
 - DontSearchSystem        # switch that will not search the system for the driver so you dont have to copy the source file
 - EnableTestSigning       # Enables Windows driver test signing on boot
 
+## Requires external tools in the "Tools" subfolder
+- checksumfix "tools\ChecksumFix.exe"
+- signtool "tools\signtool.exe"
+
 ### OUTPUTS
   Console log
 
