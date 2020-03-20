@@ -4,7 +4,7 @@ Powershell script to automatically patch NVIDIA drivers to enable SLI on non-SLI
 ## Usage
 `.\Enable-SLI.ps1`
 
-![Snapshot](https://i.ibb.co/rvhRJjR/PS-Nvidia-SLI-Enable-Script.png)
+![Snapshot](https://i.ibb.co/523gV0g/PS-Nvidia-SLI-Enable-Script.png)
 
 
 ### SYNOPSIS
